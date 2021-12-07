@@ -1,0 +1,40 @@
+server: 
+  port: 8000
+  
+spring:
+  application:
+    name: Api-gateway
+    
+  cloud:
+    gateway:
+      routes:
+      - id: contact-service
+        uri: http://localhost:8006
+        predicates:
+        - Path=/contact/**
+      - id: payment-service
+        uri:  http://localhost:8004
+        predicates:
+        - Path=/payment/** 
+      - id: login-service
+        uri:  http://localhost:8001
+        predicates:
+        - Path=/login/**
+      - id: ticket-reservation-service
+        uri:  http://localhost:8003
+        predicates:
+        - Path=/ticketreservation/**
+      - id: train-service
+        uri:  http://localhost:8002
+        predicates:
+        - Path=/train/**        
+        
+  eureka:
+    client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+    hostname: localhost

@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "spring.data.mongodb.socketTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.socketTimeout'"
+  },
+  {
+    "name": "eureka.register-with-eureka",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.register-with-eureka'"
+  },
+  {
+    "name": "eureka.fetch-registry",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.fetch-registry'"
+  },
+  {
+    "name": "eureka.service-url.default-zone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.service-url.default-zone'"
+  },
+  {
+    "name": "eureka.hostname",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.hostname'"
+  },
+  {
+    "name": "eureka.client.instance",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.instance'"
+  },
+  {
+    "name": "eureka.client.hostname",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.hostname'"
+  }
+]}
